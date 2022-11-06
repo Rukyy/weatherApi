@@ -1,0 +1,51 @@
+div.display{
+    /* border: 2px solid red; */
+    width: 60%;
+    margin: 0 auto;
+    /* display: flex; */
+    animation-name: moveit;
+    animation-duration: 1s;
+    animation-timing-function:ease-in;
+}
+@keyframes moveit{
+    50%{transform: scale(0.5);}
+    100%{transform: rotate(720deg);}
+}
+.nameofcity{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: orange;
+}
+.description{
+    font-size: medium;
+    font-weight: 200;
+    color: aliceblue;
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+}
+li{
+    width: 40%;
+    height: 70px;
+    color: rgb(64, 51, 51);
+    /* border:2px solid black; */
+    border-radius: 8px;
+    margin: 1%;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -10px 10px  10px ;
+}
+.coord{
+    font-size: small;
+    color: rgb(65, 62, 62);
+}
+h4{
+    margin: 0;
+}

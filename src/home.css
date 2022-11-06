@@ -1,0 +1,36 @@
+input{
+    color: rgb(59, 46, 46);
+    background-color: whitesmoke;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    outline-style: none;
+    outline-offset: 0;
+    border-color: transparent;
+    width: 200px;
+    margin-top: 8px;
+    height: 30px;
+    padding-left: 8px;
+}
+button{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-color:transparent ;
+    background-color: rgb(54, 47, 47);
+    color: whitesmoke;
+    cursor: pointer;
+    height: 30px;
+}
+.Home{
+    cursor: pointer;
+}
+.welcomingtag{
+    height: 100px;
+    width: 500px;
+    margin: 0 auto;
+    line-height: 100px;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    text-align: center;
+    color: whitesmoke;
+    background-color:rgba(95, 158, 160,0.7);
+}
